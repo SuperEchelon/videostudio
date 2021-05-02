@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
     <title>видеостудия</title>
@@ -14,7 +15,7 @@
             <header class="header">
                 <div class="container header__container">
                     <a href="" class="logo">
-                        <img src="./logo.png" alt="logo" class="logo__img">
+                        <img src="/img/logo.png" alt="logo" class="logo__img">
                     </a>
                     <nav class="menu">
                         <ul class="menu__list">
@@ -34,14 +35,16 @@
                     <div class="hello__text-section">
                         <h1 class="hello__title">снимем для вас креативное видео</h1>
                         <div class="hello__text">Креативный видеопродакшн полного цикла</div>
-                        <a href="#" class="button">подробнее</a>
+                        <a href="#" class="button button--color--orange">подробнее</a>
                     </div>
                 </section>
                 <section class="offers">
                     <div class="container">
                         <ul class="offers__list">
                             <li class="offers__item">
-                                <img src="" alt="advertising" class="advertising__img">
+                                <div class="offers__header"> 
+                                    <img src="./img/tv.png" alt="tv" class="offers__header-img">
+                                </div>
                                 <div class="offers__content">
                                     <h5 class="offers__title">Реклама</h5>
                                     <div class="advertising__features">
@@ -55,11 +58,15 @@
                                     <p class="offers__text">
                                         Креатив и производство рекламы, документального и корпоративного контента.
                                     </p>
-                                    <a href="#" class="button button--light">подробнее</a>
+                                    <div class="offers__button-wrapper">  
+                                        <a href="#" class="button button--light button--color--white">подробнее</a>
+                                    </div>
                                 </div>
                             </li>
                             <li class="offers__item">
-                                <img src="" alt="video clip" class="video clip__img">
+                                <div class="offers__header"> 
+                                    <img src="./img/clapper.png" alt="clapper" class="offers__header-img">
+                                </div> 
                                 <div class="offers__content">
                                     <h5 class="offers__title">Видео-клип</h5>
                                     <div class="video clip__features">
@@ -73,11 +80,15 @@
                                     <p class="offers__text">
                                         Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно! 
                                     </p>
-                                    <a href="#" class="button button--light">подробнее</a>
+                                    <div class="offers__button-wrapper"> 
+                                        <a href="#" class="button button--light button--color--white">подробнее</a>
+                                    </div>
                                 </div>
                             </li>
                             <li class="offers__item">
-                                <img src="" alt="wedding" class="wedding__img">
+                                <div class="offers__header">                                 
+                                    <img src="./img/film.png" alt="film" class="offers__header-img">
+                                </div> 
                                 <div class="wedding__content">
                                     <h5 class="offers__title">Свадьба</h5>
                                     <div class="wedding__features">
@@ -91,7 +102,9 @@
                                     <p class="offers__text">
                                         Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.
                                     </p>
-                                    <a href="#" class="button button--light">подробнее</a>
+                                    <div class="offers__button-wrapper"> 
+                                        <a href="#" class="button button--light button--color--white">подробнее</a>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
