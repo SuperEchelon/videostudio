@@ -32,7 +32,7 @@ h3, h4, h6 {
 
 .wrapper__content {
 margin: 0 auto;
-width: 1140px;
+width: 1142px;
 }
 
 .container header__container {
@@ -44,26 +44,26 @@ width: 1140px;
 .logo {
     display: block;
     position: absolute;
-    top: 26px;
-    left: 0;
+    top: 27px;
+    left: 1;
 }
 
 .menu {
     position: absolute;
-    top: 46px;
-    left: 438px;
+    top: 47px;
+    left: 439px;
 }
 
 .header {
-    height: 120px;
+    height: 1px;
     position: relative;
-    margin-bottom: 114px;
+    margin-bottom: 76px;
 }
 
 .menu__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 52px;
+    margin-right: 51px;
 }
 
 .menu__item--active .menu__link {
@@ -83,8 +83,8 @@ width: 1140px;
     font-style: normal;
     text-align: right;
     position: absolute;
-    top: 34px;
-    right: -1px;
+    top: 35px;
+    right: 0px;
 }
 
 .contacts__phone {
@@ -105,11 +105,11 @@ width: 1140px;
 }
 
 .hello {
-    margin: 233px auto;
+    margin: 235px auto;
 }
 
 .hello__text-section {
-    width: 1142px;
+    width: 1144px;
     text-align: center;
 }
 
@@ -129,7 +129,7 @@ width: 1140px;
 .hello__text {
     font-size: 18px;
     color: #FFFFFF;
-    margin-bottom: 44px;
+    margin-bottom: 41px;
 }
 
 .button {
@@ -142,10 +142,29 @@ width: 1140px;
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
+    border: 2px solid #FF5500;
+}
+
+.button--color--orange {
+    background: #FF3D00;
+    color: #FFFFFF;
+    border: 2px solid #FF5500;
+}
+
+.button--color--orange:hover {
+    background: #FFFFFF;
+    color: #FF3D00;
+}
+
+.button--color--white {
+    background: #FFFFFF;
+    color: #FF3D00;
+    border: 2px solid #FF5500;
 }
 
 .button--color--white:hover {
-    color: #FF3D00;
+    background-color: #FF3D00;
+    color: #FFFFFF;
 }
 
 .offers {
@@ -158,7 +177,7 @@ width: 1140px;
     display: inline-block;
     margin-right: 10px;
     width: 362px;
-    height: 476px;
+    min-height: 476px;
 }
 
 .offers__item:last-child {
@@ -166,29 +185,44 @@ width: 1140px;
 }
 
 .offers__header {
-    min-height: 162px;
+    min-height: 92px;
     margin-bottom: 30px;
     position: relative;
 }
 
+.offers__header-img {
+    position: absolute;
+    left: 8%;
+    top: 35%;
+}
+
 .offers__content {
-    padding: 0px 22px;
+    padding: 0px 19px;
     color: #000000;
 }
 
-.offers_title {
+.offers__title {
     font-weight: bold;
     font-size: 32px;
-    margin-bottom: 17px;
+    margin-bottom: 21px;
 }
 
 .offers__features-cell {
     display: inline-block;
-    width: 40%;
+    width: 38%;
     vertical-align: top;
-    margin-right: 81px;
+    margin-right: 58px;
+    margin-bottom: 13px;
 }
 
 .offers__features-cell:last-child {
     margin-right: 0;
+}
+
+.offers__text {
+    margin-bottom: 35px;
+}
+
+.offers__button-wrapper {
+text-align: left;
 }
