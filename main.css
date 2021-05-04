@@ -175,7 +175,7 @@ width: 1142px;
     background: #FFFFFF;
     border-radius: 5px;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 23px;
     width: 362px;
     min-height: 476px;
 }
@@ -186,18 +186,18 @@ width: 1142px;
 
 .offers__header {
     min-height: 92px;
-    margin-bottom: 30px;
     position: relative;
 }
 
 .offers__header-img {
     position: absolute;
     left: 8%;
-    top: 35%;
+    top: 38%;
 }
 
 .offers__content {
-    padding: 0px 19px;
+    padding-top: 24px;
+    padding: 0px 23px;
     color: #000000;
 }
 
@@ -209,9 +209,9 @@ width: 1142px;
 
 .offers__features-cell {
     display: inline-block;
-    width: 38%;
+    width: 39%;
     vertical-align: top;
-    margin-right: 58px;
+    margin-right: 55px;
     margin-bottom: 13px;
 }
 
@@ -219,10 +219,70 @@ width: 1142px;
     margin-right: 0;
 }
 
+.offers__features-text {
+    color: #666666;
+    font-weight: normal;
+    font-size: 16px;
+}
+
 .offers__text {
-    margin-bottom: 35px;
+    margin-right: 6px;
+    margin-bottom: 46px;
+    color: #666666;
+    font-weight: normal;
+    font-size: 14px;
+}
+.offers__features-range {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
 }
 
 .offers__button-wrapper {
-text-align: left;
+    text-align: left;
+}
+
+.news__item {
+    width: 557px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.title__news {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 45px;
+}
+
+.news__cover {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 40%;
+}
+
+.news__text-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px 31px;
+    min-height: 130px;
+}
+
+.news__date {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.news__subtitle {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.title__list {
+    margin-bottom: 58px;
 }
