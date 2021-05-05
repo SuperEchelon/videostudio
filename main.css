@@ -34,6 +34,10 @@ p {
     box-sizing: border-box;
 }
 
+.main-page-wrapper {
+    background: url("./img/hero.png") center top no-repeat, url(./img/bottom-pic.png) right bottom no-repeat;
+}
+
 .wrapper__content {
 margin: 0 auto;
 width: 1142px;
@@ -89,6 +93,11 @@ width: 1142px;
     position: absolute;
     top: 63px;
     right: 0px;
+}
+
+.contacts__desc {
+    color: #9A9A9A;
+    font-size: 11px;
 }
 
 .contacts__phone {
@@ -331,6 +340,7 @@ background: #FF5500;
 
 .section {
     margin-top: 146px;
+    margin-bottom: 55px;
 }
 
 .about::before {
@@ -374,4 +384,93 @@ background: #FF5500;
 
 .about__name p :last-child {
     margin-bottom: 0;
+}
+
+.footer-container__content {
+    border-top: 1px solid #353538;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 1142px;
+    height: 146px;
+    position: relative;
+    margin-top: -56px;
+}
+
+.logo__footer {
+    display: block;
+    position: absolute;
+    top: 97px;
+    left: 0;
+}
+
+.contacts__footer {
+    font-style: normal;
+    text-align: right;
+    position: absolute;
+    top: 108px;
+    right: 2px;
+}
+
+.menu__footer {
+    position: absolute;
+    top: 115px;
+    left: 327px;
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.socials {
+    top: 107px;
+    right: 246px;
+    position: absolute;
+}
+
+.socials__item :last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.socials__item--icon--telegram .socials__link {
+    background-image: url(./img/telegram.png);
+}
+
+.socials__item--icon--telegram .socials__link:hover {
+    background-image: url(./img/t.png);
+}
+
+.socials__item--icon--vk .socials__link {
+    background-image: url(./img/vk.png);
+}
+
+.socials__item--icon--vk .socials__link:hover {
+    background-image: url(./img/vk-hover.png);
+}
+
+.socials__item--icon--facebook .socials__link {
+    background-image: url(./img/facebook\ 1.png);
+}
+
+.socials__item--icon--facebook .socials__link:hover {
+    background-image: url(./img/f2.png);
+}
+
+.socials__item--icon--instagram .socials__link {
+    background-image: url(./img/in.png);
+}
+
+.socials__item--icon--instagram .socials__link:hover {
+    background-image: url(./img/in-hover.png);
 }
