@@ -109,7 +109,7 @@ width: 1142px;
 .contacts__dropdown-title {
     font-size: 13px;
     text-decoration: underline;
-    color: #FF3D00;
+    color: #FFFFFF;
     position: absolute;
     width: 97px;
     height: 20px;
@@ -191,6 +191,7 @@ width: 1142px;
     margin-right: 23px;
     width: 362px;
     min-height: 476px;
+    padding: 0px 0px 39px 0px;
 }
 
 .offers__item:last-child {
