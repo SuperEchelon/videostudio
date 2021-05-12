@@ -518,7 +518,7 @@ background: #FF5500;
 .top-line {
     padding-bottom: 28px;
     min-height: 416px;
-    background: url(/img/top-line.png) right 50% top no-repeat;
+    background: url(/img/top-line.png) center top no-repeat;
     display: flex;
     flex-direction: column;
 }
