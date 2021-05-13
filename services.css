@@ -1,0 +1,391 @@
+/* услуги */
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.2;
+    background: #17191C;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0px;
+}
+
+a {
+    color: inherit
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h3, h4, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+p {
+    margin-top: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px
+}
+
+.container {
+    margin: 0 auto;
+    width: 1145px;
+}
+    
+.logo {
+    display: block;
+    margin-right: 244px;
+    top: 57px;
+    left: 0px;
+}
+    
+.menu {
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 102px;  
+}
+
+.header {
+    padding-top: 27px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+    justify-content: flex-end;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 51px;
+}
+
+.menu__item--active .menu__link {
+    color: #FF3D00;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #FF3D00;
+}
+
+.contacts {
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__desc {
+    color: #9A9A9A;
+    font-size: 11px;
+}
+
+.contacts__phone {
+    text-decoration: none; 
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+    
+.contacts__dropdown-title {
+    font-size: 13px;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.top-line {
+    padding-bottom: 28px;
+    min-height: 416px;
+    background: url(./img/top-line.png) center top no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-line__container {
+    margin: 0 auto;
+    width: 1150px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page__title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item::after {
+    content: "/";
+    color: #9A9A9A;    
+}
+
+.breadcrumbs__item:last-child::after {
+    display: none;
+}
+
+.breadcrumbs__link {
+    color: #9A9A9A;
+    font-size: 14px;
+}
+
+.page__content {
+    background: #fff;
+    color: #303030;
+    padding: 93px 0;
+}
+
+.services {
+margin-bottom: 57px;
+}
+
+.service {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.service:last-child {
+    margin-bottom: 0px;
+}
+
+.service__img {
+    width: 41%;
+    margin-right: 4%;
+}
+
+.service__content {
+    flex: 1;
+}     
+
+.service__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 28px;
+    color: #000000;
+}
+
+.service__desc {
+    line-height: 1.7;
+    margin-bottom: 18px;
+    color: #303030;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination__info {
+    margin-right: 25px;
+}
+
+.pagination__list {
+    display: flex;
+    align-items: center;
+}
+
+.pagination__item {
+    text-align: center;
+}
+
+.pagination__item--active .pagination__number{
+background: #FF5500;
+}
+
+.pagination__number {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.inner-section {
+    background: #F4F5F5;
+    color: #1A1B1E;
+    padding: 140px 0px;
+}
+
+.inner-section--bg--grey {
+    background: #F4F5F5;
+}
+
+.inner-section__title {
+    margin: 0px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partners__item {
+    margin-left: 46px;
+}
+
+.partners__item:nth-child(4n + 1) {
+    margin-left: 0px;
+}
+
+.partners__link {
+    text-decoration: none;
+    display: flex;
+    width: 250px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
+}
+
+.partners__link:hover {
+    filter: grayscale(0);
+}
+
+.footer__container {
+    margin-top: auto;
+}
+
+.footer-container__section {
+    height: 52px;
+    margin-top: 46px;
+}
+
+.footer-container__content {
+    border-top: 1px solid #353538;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col--align--right {
+    justify-content: flex-end;
+}
+
+.logo__footer {
+    margin-right: 131px;
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.socials {
+    margin-right: 74px;
+}
+
+.socials__item :last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.socials__item--icon--telegram .socials__link {
+    background-image: url(./img/telegram.png);
+}
+
+.socials__item--icon--telegram .socials__link:hover {
+    background-image: url(./img/t.png);
+}
+
+.socials__item--icon--vk .socials__link {
+    background-image: url(./img/vk.png);
+}
+
+.socials__item--icon--vk .socials__link:hover {
+    background-image: url(./img/vk-hover.png);
+}
+
+.socials__item--icon--facebook .socials__link {
+    background-image: url(./img/facebook\ 1.png);
+}
+
+.socials__item--icon--facebook .socials__link:hover {
+    background-image: url(./img/f2.png);
+}
+
+.socials__item--icon--instagram .socials__link {
+    background-image: url(./img/in.png);
+}
+
+.socials__item--icon--instagram .socials__link:hover {
+    background-image: url(./img/in-hover.png);
+}
