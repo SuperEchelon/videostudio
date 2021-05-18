@@ -1,0 +1,129 @@
+/* Приветственная страница */
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.2;
+    background: #17191C;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0px;
+}
+
+a {
+    color: inherit
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h3, h4, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+p {
+    margin-top: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.button {
+    background: #FF3D00;
+    font-size: 14px;
+    border-radius: 35px;
+    padding: 19px 54px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #FF5500;
+}
+
+.button--color--orange {
+    background: #FF3D00;
+    color: #FFFFFF;
+    border: 2px solid #FF5500;
+}
+
+.button--color--orange:hover {
+    background: #FFFFFF;
+    color: #FF3D00;
+}
+
+.button--color--white {
+    background: #FFFFFF;
+    color: #FF3D00;
+    border: 2px solid #FF5500;
+}
+
+.button--color--white:hover {
+    background-color: #FF3D00;
+    color: #FFFFFF;
+}
+
+.welcome {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url(./img/rec.png), url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-size: auto auto, cover;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: jackInTheBox 1s;
+}
+
+.central__logo {
+    margin-bottom: 38px;
+}
+
+@keyframes jackInTheBox {
+    from {
+      opacity: 0;
+      transform: scale(0.1) rotate(30deg);
+      transform-origin: center bottom;
+    }
+  
+    50% {
+      transform: rotate(-10deg);
+    }
+  
+    70% {
+      transform: rotate(3deg);
+    }
+  
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }  

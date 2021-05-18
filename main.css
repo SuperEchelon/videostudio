@@ -515,3 +515,62 @@ background: #FF5500;
 .socials__item--icon--instagram .socials__link:hover {
     background-image: url(./img/in-hover.png);
 }
+
+/* всплывающее меню */
+
+.contacts__dropdown-title__wrap {
+    font-size: 13px;
+    text-decoration: underline;
+    position: relative;
+}
+
+.contacts__dropdown-title__wrap:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.contacts__dropdown-title__wrap {
+    margin-bottom: 20px;
+}
+
+.contacts__dropdown-title__wrap:hover .dropdown {
+    left: 0;
+    opacity: 1;
+}
+
+.dropdown {
+    padding: 23px 34px 15px;
+    background: #CDD1D2;
+    opacity: 0.8;
+    border-radius: 5px;
+    color: #1E1F20;
+    font-weight: 600;
+    position: absolute;
+    top: 31px;
+    left: -9999px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.dropdown__days {
+    font-weight: 700;
+}
+
+.dropdown::before {
+    content: '';
+    height: 32px;
+    width: 100%;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+}
+
+.dropdown::after {
+    content: '';
+    position: absolute;
+    border: 15px solid transparent;
+    border-bottom-color: #CDD1D2;
+    border-top-width: 0;
+    top: -15px;
+    right: 37px;
+}
