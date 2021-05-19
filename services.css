@@ -109,6 +109,7 @@ body, html {
 
 .menu__link:hover {
     color: #FF3D00;
+    transition-duration: 0.5s;
 }
 
 .contacts {
@@ -308,6 +309,7 @@ margin-bottom: 57px;
 .button--color--orange:hover {
     background: #FFFFFF;
     color: #FF3D00;
+    transition-duration: 0.5s;
 }
 
 .button--color--white {
@@ -319,6 +321,7 @@ margin-bottom: 57px;
 .button--color--white:hover {
     background-color: #FF3D00;
     color: #FFFFFF;
+    transition-duration: 0.5s;
 }
 
 .pagination {
@@ -398,6 +401,7 @@ background: #FF5500;
 
 .partners__link:hover {
     filter: grayscale(0);
+    transition-duration: 0.5s;
 }
 
 .footer__container {
@@ -461,6 +465,7 @@ background: #FF5500;
 
 .socials__item--icon--telegram .socials__link:hover {
     background-image: url(./img/t.png);
+    transition-duration: 0.5s;
 }
 
 .socials__item--icon--vk .socials__link {
@@ -469,6 +474,7 @@ background: #FF5500;
 
 .socials__item--icon--vk .socials__link:hover {
     background-image: url(./img/vk-hover.png);
+    transition-duration: 0.5s;
 }
 
 .socials__item--icon--facebook .socials__link {
@@ -477,6 +483,7 @@ background: #FF5500;
 
 .socials__item--icon--facebook .socials__link:hover {
     background-image: url(./img/f2.png);
+    transition-duration: 0.5s;
 }
 
 .socials__item--icon--instagram .socials__link {
@@ -485,4 +492,5 @@ background: #FF5500;
 
 .socials__item--icon--instagram .socials__link:hover {
     background-image: url(./img/in-hover.png);
+    transition-duration: 0.5s;
 }

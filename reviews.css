@@ -104,6 +104,7 @@ body, html {
 
 .menu__link:hover {
     color: #FF3D00;
+    transition-duration: 0.5s;
 }
 
 .contacts {
@@ -268,6 +269,7 @@ body, html {
 .button--color--orange:hover {
     background: #FFFFFF;
     color: #FF3D00;
+    transition-duration: 0.5s;
 }
 
 .button--color--white {
@@ -279,16 +281,17 @@ body, html {
 .button--color--white:hover {
     background-color: #FF3D00;
     color: #FFFFFF;
+    transition-duration: 0.5s;
 }
 
 .button--color--grey {
     background: #8E8E8E;
     border: 2px solid #8E8E8E;
-
 }
 
 .button--color--grey:hover {
     background-color: #FF3D00;
+    transition-duration: 0.5s;
 }
 
 .pagination {
@@ -403,6 +406,7 @@ background: #FF5500;
 
 .socials__item--icon--telegram .socials__link:hover {
     background-image: url(./img/t.png);
+    transition-duration: 0.5s;
 }
 
 .socials__item--icon--vk .socials__link {
@@ -411,6 +415,7 @@ background: #FF5500;
 
 .socials__item--icon--vk .socials__link:hover {
     background-image: url(./img/vk-hover.png);
+    transition-duration: 0.5s;
 }
 
 .socials__item--icon--facebook .socials__link {
@@ -419,6 +424,7 @@ background: #FF5500;
 
 .socials__item--icon--facebook .socials__link:hover {
     background-image: url(./img/f2.png);
+    transition-duration: 0.5s;
 }
 
 .socials__item--icon--instagram .socials__link {
@@ -427,6 +433,7 @@ background: #FF5500;
 
 .socials__item--icon--instagram .socials__link:hover {
     background-image: url(./img/in-hover.png);
+    transition-duration: 0.5s;
 }
 
 /* отзывы */
@@ -471,9 +478,10 @@ margin-bottom: 17px;
 .review__user::after {
     content: url(./img/vk-blue1.png);
     height: 32px;
+    padding: 0px 7px;
 }
 
-.user--blue {
+.review__user:hover {
     color: #2E77A4;
     text-decoration: underline;
 }
@@ -612,6 +620,7 @@ margin-bottom: 17px;
 
 .controls__checkbox:checked ~ .controls__tag {
     background: #F2D4C9;
+    transition-duration: 0.5s;
 }
 
 .controls__checkbox {

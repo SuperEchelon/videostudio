@@ -115,6 +115,7 @@ width: 1145px;
 
 .menu__link:hover {
     color: #FF3D00;
+    transition-duration: 0.5s;
 }
 
 .contacts {
@@ -189,6 +190,7 @@ width: 1145px;
 .button--color--orange:hover {
     background: #FFFFFF;
     color: #FF3D00;
+    transition-duration: 0.5s;
 }
 
 .button--color--white {
@@ -200,6 +202,7 @@ width: 1145px;
 .button--color--white:hover {
     background-color: #FF3D00;
     color: #FFFFFF;
+    transition-duration: 0.5s;
 }
 
 .offers__list {
@@ -285,7 +288,6 @@ margin-right: 61px;
 .offers__button-wrapper {
     display: flex;
     justify-content: left;
-    margin-top: af;
 }
 
 .news {
@@ -484,36 +486,136 @@ background: #FF5500;
     background: center center no-repeat;
 }
 
-.socials__item--icon--telegram .socials__link {
-    background-image: url(./img/telegram.png);
+.socials__item:hover:before {
+    opacity: 1;
 }
 
-.socials__item--icon--telegram .socials__link:hover {
-    background-image: url(./img/t.png);
+.socials__item:hover:after {
+    opacity: 0;
 }
 
-.socials__item--icon--vk .socials__link {
-    background-image: url(./img/vk.png);
+.socials__item--icon--telegram .socials__link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url('./img/sprite.png') -66px -10px;
+    transition: .3s;
 }
 
-.socials__item--icon--vk .socials__link:hover {
-    background-image: url(./img/vk-hover.png);
+.socials__item--icon--telegram .socials__link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url('./img/sprite.png') -10px -10px;
+    opacity: 0;
+    transition: .3s;
 }
 
-.socials__item--icon--facebook .socials__link {
-    background-image: url(./img/facebook\ 1.png);
+.socials__item--icon--telegram .socials__link:hover:after {
+    background-position: -10px -10px;
 }
 
-.socials__item--icon--facebook .socials__link:hover {
-    background-image: url(./img/f2.png);
+.socials__item--icon--vk .socials__link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url('./img/sprite.png') -122px -10px;
+    transition: .3s;
 }
 
-.socials__item--icon--instagram .socials__link {
-    background-image: url(./img/in.png);
+.socials__item--icon--vk .socials__link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url('./img/sprite.png') -178px -10px;
+    opacity: 0;
+    transition: .3s;
 }
 
-.socials__item--icon--instagram .socials__link:hover {
-    background-image: url(./img/in-hover.png);
+.socials__item--icon--vk .socials__link:hover:after {
+    background-position: -178px -10px;
+}
+
+.socials__item--icon--facebook .socials__link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url('./img/sprite.png') -234px -10px;
+    transition: .3s;
+}
+
+.socials__item--icon--facebook .socials__link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url('./img/sprite.png') -290px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.socials__item--icon--facebook .socials__link:hover:after {
+    background-position: -290px -10px;
+}
+
+.socials__item--icon--instagram .socials__link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url('./img/sprite.png') -346px -10px;
+    transition: .3s;
+}
+
+.socials__item--icon--instagram .socials__link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url('./img/sprite.png') -402px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.socials__item--icon--instagram .socials__link:hover:after {
+    background-position: -402px -10px;
 }
 
 /* всплывающее меню */
