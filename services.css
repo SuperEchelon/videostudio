@@ -451,46 +451,146 @@ background: #FF5500;
     margin-right: 0;
 }
 
-.socials__link {
-    display: block;
+.socials__item {
     text-decoration: none;
     width: 36px;
     height: 36px;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 50%;
     background: center center no-repeat;
+    position: relative;
 }
 
-.socials__item--icon--telegram .socials__link {
-    background-image: url(./img/telegram.png);
+.socials__item:hover:before {
+    opacity: 1;
 }
 
-.socials__item--icon--telegram .socials__link:hover {
-    background-image: url(./img/t.png);
-    transition-duration: 0.5s;
+.socials__item:hover:after {
+    opacity: 0;
 }
 
-.socials__item--icon--vk .socials__link {
-    background-image: url(./img/vk.png);
+.socials__item--icon--telegram:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    background: url('./img/sprite.png') -346px -10px;
+    transition: .3s;
 }
 
-.socials__item--icon--vk .socials__link:hover {
-    background-image: url(./img/vk-hover.png);
-    transition-duration: 0.5s;
+.socials__item--icon--telegram:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    background: url('./img/sprite.png') -402px -10px;
+    opacity: 0;
+    transition: .3s;
 }
 
-.socials__item--icon--facebook .socials__link {
-    background-image: url(./img/facebook\ 1.png);
+.socials__item--icon--telegram:hover:after {
+    background-position: -346px -10px;
+
 }
 
-.socials__item--icon--facebook .socials__link:hover {
-    background-image: url(./img/f2.png);
-    transition-duration: 0.5s;
+.socials__item--icon--vk:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    background: url('./img/sprite.png') -122px -10px;
+    transition: .3s;
 }
 
-.socials__item--icon--instagram .socials__link {
-    background-image: url(./img/in.png);
+.socials__item--icon--vk:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    background: url('./img/sprite.png') -290px -10px;
+    opacity: 0;
+    transition: .3s;
 }
 
-.socials__item--icon--instagram .socials__link:hover {
-    background-image: url(./img/in-hover.png);
-    transition-duration: 0.5s;
+.socials__item--icon--vk:hover:after {
+    background-position: -122px -10px;
+}
+
+.socials__item--icon--facebook:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    background: url('./img/sprite.png') -66px -10px;
+    transition: .3s;
+}
+
+.socials__item--icon--facebook:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    background: url('./img/sprite.png') -234px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.socials__item--icon--facebook:hover:after {
+    background-position: -66px -10px;
+}
+
+.socials__item--icon--instagram:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    background: url('./img/sprite.png') -10px -10px;
+    transition: .3s;
+}
+
+.socials__item--icon--instagram:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    background: url('./img/sprite.png') -178px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.socials__item--icon--instagram:hover:after {
+    background-position: -10px -10px;
 }
