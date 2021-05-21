@@ -382,6 +382,7 @@ background: #FF5500;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .socials {
@@ -573,6 +574,7 @@ margin-bottom: 17px;
     color: #1A1B1E;
     margin-bottom: 12px;
     text-decoration: none;
+    transition: .3s;
 }
 
 .review__user::after {
